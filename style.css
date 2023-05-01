@@ -305,67 +305,7 @@ button a {
 .box img:hover{
     transform: scale(1.1);
 }
-
-
-/* Daily UI.*/
-
-#dailyui{
-    background-color: var(--bg-color);
-}
-
-.dailyui-text h1{
-    font-size: var(--h1-font);
-    font-weight: 600;
-    color: var(--main-color);
-    margin-bottom: 20px;
-}
-
-.dailyui-text p{
-    margin-bottom: 30px;
-}
-
-/* carousel */
-.container1{
-    width: 100%;
-    display:block;
-    overflow:hidden;
-}
-
-.carousel1{
-    display:block;
-    width: 100%;
-    height: 300px;
-    overflow-x: scroll;
-    margin: 0;
-    white-space: nowrap;
-}
-
   
-.item {
-      display: inline-block;
-      width: 280px;
-      margin: 0 16px 0 0;
-      height: 280px;
-      background: rgba(0, 0, 0, 0.05) no-repeat center center;
-      background-size: cover;
-      position:relative;
-      border-radius: 10px;
-      box-shadow: 0 0 10px #dfdfdf;
-}
-
-.indication-test {
-    padding-top: 16px;
-    padding-bottom: 60px;
-}
-
-h5{
-    font-size: 18px;
-    font-weight: 600;
-    color: var(--main-color);
-    font-variant-caps: all-petite-caps;
-}
-
-
 /* Contacts */
 
 #contact{
