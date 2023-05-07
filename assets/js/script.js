@@ -16,7 +16,7 @@ if (document.documentElement.clientWidth < 480) {
         for(tabcontent of tabcontents){ 
             tabcontent.classList.remove("active-tab");
         }
-        event.currentTarget.classList.add("active-link");
+        EventTarget.currentTarget.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab");
     }
 
@@ -32,3 +32,7 @@ if (document.documentElement.clientWidth < 480) {
     function closemenu(){
         sidemenu.style.right = "-200px";
     }
+
+    
+
+    
