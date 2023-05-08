@@ -120,7 +120,6 @@ nav .fa-solid {
 #home {
     padding-top: 20%;
     padding-bottom: 10%;
-    background-image: url(../img/background2.png);
     background-size: cover;
     background-position: center;
 }
@@ -273,7 +272,7 @@ button a {
 
 .portfolio-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(20px, auto));
     grid-gap: 40px;
     align-items: center;
     margin-top: 50px;
@@ -281,12 +280,13 @@ button a {
 }
 
 .box img{
-    width: 100%;
-    aspect-ratio: 16/9;
+    width: 300px;
+    aspect-ratio: auto;
     height: auto;
     border-radius: 10px;
     margin-bottom: 20px;
     transition: all .30s;
+    
 }
 
 .box p{
@@ -309,7 +309,7 @@ button a {
 /* Contacts */
 
 #contact{
-    background-image: url(../img/background.png);
+    
     background-size: cover;
     background-position: center;
     padding-bottom: 80px;
