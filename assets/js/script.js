@@ -16,7 +16,7 @@ if (document.documentElement.clientWidth < 480) {
         for(tabcontent of tabcontents){ 
             tabcontent.classList.remove("active-tab");
         }
-        EventTarget.currentTarget.classList.add("active-link");
+        event.currentTarget.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab");
     }
 
